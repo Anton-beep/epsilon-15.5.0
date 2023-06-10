@@ -7,5 +7,5 @@ FR,All,CumulatedFrequency,Metric,Default
 GB,All,MedianOfSublist,Metric,Default
 IT,All,CumulatedFrequency,Metric,Default
 NL,All,MedianOfSublist,Metric,Default
-PT,StandardOnly,MedianOfSublist,Metric,Default
-US,StandardOnly,MedianOfSublist,Imperial,HidePython
+PT,All,MedianOfSublist,Metric,Default
+US,All,MedianOfSublist,Imperial,HidePython
