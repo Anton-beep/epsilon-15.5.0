@@ -86,7 +86,7 @@ void AppsContainer::reset() {
   // Empty storage (delete functions, variables, python scripts)
   Ion::Storage::sharedStorage()->destroyAllRecords();
   // Empty clipboard
-  Clipboard::sharedClipboard()->reset();
+  // Clipboard::sharedClipboard()->reset();
   for (int i = 0; i < numberOfApps(); i++) {
     // appSnapshotAtIndex(i)->reset();
   }
