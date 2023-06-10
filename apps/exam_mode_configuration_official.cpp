@@ -32,7 +32,7 @@ I18n::Message ExamModeConfiguration::examModeActivationWarningMessage(GlobalPref
     return warnings[line];
   }
   assert(mode == GlobalPreferences::ExamMode::Dutch);
-  I18n::Message warnings[] = {I18n::Message::ActiveDutchExamModeMessage1, I18n::Message::ActiveDutchExamModeMessage2, I18n::Message::ActiveDutchExamModeMessage3};
+  I18n::Message warnings[] = {I18n::Message::ActiveDutchExamModeMessage1, I18n::Message::ActiveDutchExamModeMessage2, I18n::Message::ActiveDutchExamModeMessage3, I18n::Message::ActiveDutchExamModeMessage4};
   return warnings[line];
 }
 
