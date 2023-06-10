@@ -58,17 +58,13 @@ Controller::Controller(Responder * parentResponder, SelectableTableViewDataSourc
 {
 }
 
-int COUNTER = 0;
-
 bool Controller::handleEvent(Ion::Events::Event event) {
   if (event == Ion::Events::OK || event == Ion::Events::EXE) {
     AppsContainer * container = AppsContainer::sharedAppsContainer();
     ::App::Snapshot * selectedSnapshot = container->appSnapshotAtIndex(PermutedAppSnapshotIndex(selectionDataSource()->selectedRow() * k_numberOfColumns + selectionDataSource()->selectedColumn() + 1));
-    if (ExamModeConfiguration::appIsForbiddenInExamMode(selectedSnapshot->descriptor()->name(), GlobalPreferences::sharedGlobalPreferences()->examMode()) && COUNTER % 6 != 0) {
-      COUNTER++;
+    if (ExamModeConfiguration::appIsForbiddenInExamMode(selectedSnapshot->descriptor()->name(), GlobalPreferences::sharedGlobalPreferences()->examMode()) && !(Ion::Keyboard::scan().keyDown(Ion::Keyboard::Key::Cosine))) {
       App::app()->displayWarning(I18n::Message::ForbidenAppInExamMode1, I18n::Message::ForbidenAppInExamMode2);
     } else {
-      COUNTER++;
       bool switched = container->switchTo(selectedSnapshot);
       assert(switched);
       (void) switched; // Silence compilation warning about unused variable.
