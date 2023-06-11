@@ -25,10 +25,10 @@ I18n::Message ExamModeConfiguration::examModeActivationMessage(int index) {
 
 I18n::Message ExamModeConfiguration::examModeActivationWarningMessage(GlobalPreferences::ExamMode mode, int line) {
   if (mode == GlobalPreferences::ExamMode::Off) {
-    I18n::Message warnings[] = {I18n::Message::ExitExamMode1, I18n::Message::ExitExamMode2, I18n::Message::Default};
+    I18n::Message warnings[] = {I18n::Message::ExitExamMode1, I18n::Message::ExitExamMode2, I18n::Message::Default, I18n::Message::Default};
     return warnings[line];
   } else if (mode == GlobalPreferences::ExamMode::Standard) {
-    I18n::Message warnings[] = {I18n::Message::ActiveExamModeMessage1, I18n::Message::ActiveExamModeMessage2, I18n::Message::ActiveExamModeMessage3};
+    I18n::Message warnings[] = {I18n::Message::ActiveExamModeMessage1, I18n::Message::ActiveExamModeMessage2, I18n::Message::ActiveExamModeMessage3, I18n::Message::Default};
     return warnings[line];
   }
   assert(mode == GlobalPreferences::ExamMode::Dutch);

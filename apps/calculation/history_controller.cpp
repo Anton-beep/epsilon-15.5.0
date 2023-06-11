@@ -157,6 +157,8 @@ Shared::ExpiringPointer<Calculation> HistoryController::calculationAtIndex(int i
 }
 
 void HistoryController::tableViewDidChangeSelectionAndDidScroll(SelectableTableView * t, int previousSelectedCellX, int previousSelectedCellY, bool withinTemporarySelection) {
+  previousSelectedCellX = 0;
+  previousSelectedCellY = 0;
   if (withinTemporarySelection || previousSelectedCellY == selectedRow()) {
     return;
   }
@@ -232,6 +234,8 @@ void HistoryController::setSelectedSubviewType(SubviewType subviewType, bool sam
 }
 
 void HistoryController::historyViewCellDidChangeSelection(HistoryViewCell ** cell, HistoryViewCell ** previousCell, int previousSelectedCellX, int previousSelectedCellY, SubviewType type, SubviewType previousType) {
+  previousSelectedCellX = 0;
+  previousSelectedCellY = 0;
   /* If the selection change triggers the toggling of the outputs, we update
    * the whole table as the height of the selected cell row might have changed. */
   if ((type == SubviewType::Output || previousType == SubviewType::Output) && (calculationAtIndexToggles(selectedRow()) || calculationAtIndexToggles(previousSelectedCellY))) {

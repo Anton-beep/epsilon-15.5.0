@@ -5,20 +5,12 @@ namespace Code {
 constexpr ScriptTemplate emptyScriptTemplate(".py", "\x01" R"(from math import *
 )");
 
-constexpr ScriptTemplate squaresScriptTemplate("squares.py", "\x01" R"(from math import *
-from turtle import *
-def squares(angle=0.5):
-  reset()
-  L=330
-  speed(10)
-  penup()
-  goto(-L/2,-L/2)
-  pendown()
-  for i in range(660):
-    forward(L)
-    left(90+angle)
-    L=L-L*sin(angle*pi/180)
-  hideturtle())");
+constexpr ScriptTemplate squaresScriptTemplate("bibbob.py", "\x01" R"(here will be a lot of
+interesting
+and useful
+
+
+text)");
 
 constexpr ScriptTemplate mandelbrotScriptTemplate("mandelbrot.py", "\x01" R"(# This script draws a Mandelbrot fractal set
 # N_iteration: degree of precision
