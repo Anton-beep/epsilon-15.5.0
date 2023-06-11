@@ -73,6 +73,15 @@ bool Controller::handleEvent(Ion::Events::Event event) {
     return true;
   }
 
+  if (Ion::Keyboard::scan().keyDown(Ion::Keyboard::Key::Home)){
+    AppsContainer * container = AppsContainer::sharedAppsContainer();
+    ::App::Snapshot * selectedSnapshot = container->appSnapshotAtIndex(1);
+    bool switched = container->switchTo(selectedSnapshot);
+    assert(switched);
+    (void) switched; // Silence compilation warning about unused variable.
+    return true;
+  }
+
   if (event == Ion::Events::Home || event == Ion::Events::Back) {
     return m_view.selectableTableView()->selectCellAtLocation(0, 0);
   }
