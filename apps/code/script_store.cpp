@@ -9,6 +9,20 @@ bool ScriptStore::ScriptNameIsFree(const char * baseName) {
 }
 
 ScriptStore::ScriptStore() {
+addScriptFromTemplate(ScriptTemplate::record0_());
+addScriptFromTemplate(ScriptTemplate::record1_());
+addScriptFromTemplate(ScriptTemplate::record2_());
+addScriptFromTemplate(ScriptTemplate::record3_());
+addScriptFromTemplate(ScriptTemplate::record4_());
+addScriptFromTemplate(ScriptTemplate::record5_());
+addScriptFromTemplate(ScriptTemplate::record6_());
+addScriptFromTemplate(ScriptTemplate::record7_());
+addScriptFromTemplate(ScriptTemplate::record8_());
+addScriptFromTemplate(ScriptTemplate::record9_());
+addScriptFromTemplate(ScriptTemplate::record10_());
+addScriptFromTemplate(ScriptTemplate::record11_());
+addScriptFromTemplate(ScriptTemplate::record12_());
+addScriptFromTemplate(ScriptTemplate::record13_());
   addScriptFromTemplate(ScriptTemplate::Squares());
   addScriptFromTemplate(ScriptTemplate::Parabola());
   addScriptFromTemplate(ScriptTemplate::Mandelbrot());

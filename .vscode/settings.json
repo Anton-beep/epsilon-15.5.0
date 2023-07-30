@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.bp": "vb",
+        "*.bpm": "vb",
+        "*.bpi": "vb",
+        "tuple": "cpp"
+    }
+}
