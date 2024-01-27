@@ -9,10 +9,91 @@ bool ScriptStore::ScriptNameIsFree(const char * baseName) {
 }
 
 ScriptStore::ScriptStore() {
-  addScriptFromTemplate(ScriptTemplate::Squares());
-  addScriptFromTemplate(ScriptTemplate::Parabola());
-  addScriptFromTemplate(ScriptTemplate::Mandelbrot());
-  addScriptFromTemplate(ScriptTemplate::Polynomial());
+  // INSERT FROM OUTPUT.TXT HERE
+
+  addScriptFromTemplate(ScriptTemplate::searcher());
+
+addScriptFromTemplate(ScriptTemplate::importer());
+
+addScriptFromTemplate(ScriptTemplate::AlternatingCurrent());
+
+addScriptFromTemplate(ScriptTemplate::BFieldOfCoilOfWireSolenoid());
+
+addScriptFromTemplate(ScriptTemplate::Diffraction());
+
+addScriptFromTemplate(ScriptTemplate::DopplerEffect());
+
+addScriptFromTemplate(ScriptTemplate::ElectricField());
+
+addScriptFromTemplate(ScriptTemplate::ElectricPotential());
+
+addScriptFromTemplate(ScriptTemplate::ElectromagneticInduction());
+
+addScriptFromTemplate(ScriptTemplate::ElectromagneticSpectrum());
+
+addScriptFromTemplate(ScriptTemplate::Electronvolt());
+
+addScriptFromTemplate(ScriptTemplate::FaradayLaw());
+
+addScriptFromTemplate(ScriptTemplate::Generator());
+
+addScriptFromTemplate(ScriptTemplate::GravitationalAcceleration());
+
+addScriptFromTemplate(ScriptTemplate::HallEffect());
+
+addScriptFromTemplate(ScriptTemplate::HygensPrinciple());
+
+addScriptFromTemplate(ScriptTemplate::InterferenceWaves());
+
+addScriptFromTemplate(ScriptTemplate::LenzLaw());
+
+addScriptFromTemplate(ScriptTemplate::LightWaves());
+
+addScriptFromTemplate(ScriptTemplate::LorentzForce());
+
+addScriptFromTemplate(ScriptTemplate::LrOrRlCircuits());
+
+addScriptFromTemplate(ScriptTemplate::MagneticFields());
+
+addScriptFromTemplate(ScriptTemplate::MagneticFlux());
+
+addScriptFromTemplate(ScriptTemplate::MassSpectrometry());
+
+addScriptFromTemplate(ScriptTemplate::MotionalEmf());
+
+addScriptFromTemplate(ScriptTemplate::NumberOfMaxima());
+
+addScriptFromTemplate(ScriptTemplate::OerstedsExperiment());
+
+addScriptFromTemplate(ScriptTemplate::RefractionOfLight());
+
+addScriptFromTemplate(ScriptTemplate::RlcCircuit());
+
+addScriptFromTemplate(ScriptTemplate::SelfInduction());
+
+addScriptFromTemplate(ScriptTemplate::SlitsWaves());
+
+addScriptFromTemplate(ScriptTemplate::SoundWaves());
+
+addScriptFromTemplate(ScriptTemplate::StandingWaves());
+
+addScriptFromTemplate(ScriptTemplate::Superposition());
+
+addScriptFromTemplate(ScriptTemplate::Torque());
+
+addScriptFromTemplate(ScriptTemplate::TypesOfWaves());
+
+addScriptFromTemplate(ScriptTemplate::WaveEquation());
+
+addScriptFromTemplate(ScriptTemplate::WavesFeatures());
+
+addScriptFromTemplate(ScriptTemplate::WavesInRippleTank());
+
+addScriptFromTemplate(ScriptTemplate::WavesGrating());
+
+addScriptFromTemplate(ScriptTemplate::Youngsdoubleslit());
+
+  // -----------------------------------------------------------------
 }
 
 void ScriptStore::deleteAllScripts() {
