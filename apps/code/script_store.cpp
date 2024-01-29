@@ -11,87 +11,140 @@ bool ScriptStore::ScriptNameIsFree(const char * baseName) {
 ScriptStore::ScriptStore() {
   // INSERT FROM OUTPUT.TXT HERE
 
-  addScriptFromTemplate(ScriptTemplate::searcher());
+addScriptFromTemplate(ScriptTemplate::ActiveAndPassiveImmunization());
 
-addScriptFromTemplate(ScriptTemplate::importer());
+addScriptFromTemplate(ScriptTemplate::AdaptiveResponse());
 
-addScriptFromTemplate(ScriptTemplate::AlternatingCurrent());
+addScriptFromTemplate(ScriptTemplate::AntibodyFunction());
 
-addScriptFromTemplate(ScriptTemplate::BFieldOfCoilOfWireSolenoid());
+addScriptFromTemplate(ScriptTemplate::AntigenicVariation());
 
-addScriptFromTemplate(ScriptTemplate::Diffraction());
+addScriptFromTemplate(ScriptTemplate::AntigenPresentingLeukocytes());
 
-addScriptFromTemplate(ScriptTemplate::DopplerEffect());
+addScriptFromTemplate(ScriptTemplate::AntigenRecognitionBCells());
 
-addScriptFromTemplate(ScriptTemplate::ElectricField());
+addScriptFromTemplate(ScriptTemplate::AntigenRecognitionTCells());
 
-addScriptFromTemplate(ScriptTemplate::ElectricPotential());
+addScriptFromTemplate(ScriptTemplate::AntimicrobalPeptidesAndProteins());
 
-addScriptFromTemplate(ScriptTemplate::ElectromagneticInduction());
+addScriptFromTemplate(ScriptTemplate::BarrierDefenses());
 
-addScriptFromTemplate(ScriptTemplate::ElectromagneticSpectrum());
+addScriptFromTemplate(ScriptTemplate::BCellsAfterSelection());
 
-addScriptFromTemplate(ScriptTemplate::Electronvolt());
+addScriptFromTemplate(ScriptTemplate::BCellsAntibodies());
 
-addScriptFromTemplate(ScriptTemplate::FaradayLaw());
+addScriptFromTemplate(ScriptTemplate::BTCellsDevelopment());
 
-addScriptFromTemplate(ScriptTemplate::Generator());
+addScriptFromTemplate(ScriptTemplate::BTCellsDiversity());
 
-addScriptFromTemplate(ScriptTemplate::GravitationalAcceleration());
+addScriptFromTemplate(ScriptTemplate::CellMediatedResponse());
 
-addScriptFromTemplate(ScriptTemplate::HallEffect());
+addScriptFromTemplate(ScriptTemplate::CellularAerobicRespiration());
 
-addScriptFromTemplate(ScriptTemplate::HygensPrinciple());
+addScriptFromTemplate(ScriptTemplate::CellularInnateDefense());
 
-addScriptFromTemplate(ScriptTemplate::InterferenceWaves());
+addScriptFromTemplate(ScriptTemplate::Compartmentalization());
 
-addScriptFromTemplate(ScriptTemplate::LenzLaw());
+addScriptFromTemplate(ScriptTemplate::ConsequencesOfGeneMutations());
 
-addScriptFromTemplate(ScriptTemplate::LightWaves());
+addScriptFromTemplate(ScriptTemplate::CytotoxicTCells());
 
-addScriptFromTemplate(ScriptTemplate::LorentzForce());
+addScriptFromTemplate(ScriptTemplate::Definitions());
 
-addScriptFromTemplate(ScriptTemplate::LrOrRlCircuits());
+addScriptFromTemplate(ScriptTemplate::DifferentialGeneExpression());
 
-addScriptFromTemplate(ScriptTemplate::MagneticFields());
+addScriptFromTemplate(ScriptTemplate::DisruptionsInImmuneSystem());
 
-addScriptFromTemplate(ScriptTemplate::MagneticFlux());
+addScriptFromTemplate(ScriptTemplate::DNAElectrophoresis());
 
-addScriptFromTemplate(ScriptTemplate::MassSpectrometry());
+addScriptFromTemplate(ScriptTemplate::DNAToRNA());
 
-addScriptFromTemplate(ScriptTemplate::MotionalEmf());
+addScriptFromTemplate(ScriptTemplate::Epidemiology());
 
-addScriptFromTemplate(ScriptTemplate::NumberOfMaxima());
+addScriptFromTemplate(ScriptTemplate::ExportSynthesizedProtein());
 
-addScriptFromTemplate(ScriptTemplate::OerstedsExperiment());
+addScriptFromTemplate(ScriptTemplate::Flu());
 
-addScriptFromTemplate(ScriptTemplate::RefractionOfLight());
+addScriptFromTemplate(ScriptTemplate::GeneMutations());
 
-addScriptFromTemplate(ScriptTemplate::RlcCircuit());
+addScriptFromTemplate(ScriptTemplate::GeneRegulation());
 
-addScriptFromTemplate(ScriptTemplate::SelfInduction());
+addScriptFromTemplate(ScriptTemplate::GenomeMutations());
 
-addScriptFromTemplate(ScriptTemplate::SlitsWaves());
+addScriptFromTemplate(ScriptTemplate::HelperTCells());
 
-addScriptFromTemplate(ScriptTemplate::SoundWaves());
+addScriptFromTemplate(ScriptTemplate::Heritability());
 
-addScriptFromTemplate(ScriptTemplate::StandingWaves());
+addScriptFromTemplate(ScriptTemplate::HIV());
 
-addScriptFromTemplate(ScriptTemplate::Superposition());
+addScriptFromTemplate(ScriptTemplate::HumoralResponse());
 
-addScriptFromTemplate(ScriptTemplate::Torque());
+addScriptFromTemplate(ScriptTemplate::ImmuneRejection());
 
-addScriptFromTemplate(ScriptTemplate::TypesOfWaves());
+addScriptFromTemplate(ScriptTemplate::ImmunologicalMemory());
 
-addScriptFromTemplate(ScriptTemplate::WaveEquation());
+addScriptFromTemplate(ScriptTemplate::InflammatoryResponses());
 
-addScriptFromTemplate(ScriptTemplate::WavesFeatures());
+addScriptFromTemplate(ScriptTemplate::InnateImmunityOfInvertebrates());
 
-addScriptFromTemplate(ScriptTemplate::WavesInRippleTank());
+addScriptFromTemplate(ScriptTemplate::InnateImmunityOfVertebrates());
 
-addScriptFromTemplate(ScriptTemplate::WavesGrating());
+addScriptFromTemplate(ScriptTemplate::Interleukins());
 
-addScriptFromTemplate(ScriptTemplate::Youngsdoubleslit());
+addScriptFromTemplate(ScriptTemplate::LactoseOperon());
+
+addScriptFromTemplate(ScriptTemplate::LymphaticSystem());
+
+addScriptFromTemplate(ScriptTemplate::MechanismusOfPostTranscriptionalRegulation());
+
+addScriptFromTemplate(ScriptTemplate::MemoryBCells());
+
+addScriptFromTemplate(ScriptTemplate::MemoryTCells());
+
+addScriptFromTemplate(ScriptTemplate::MHCI());
+
+addScriptFromTemplate(ScriptTemplate::MHCII());
+
+addScriptFromTemplate(ScriptTemplate::NoncodingRNAInControllingGeneExpression());
+
+addScriptFromTemplate(ScriptTemplate::Operons());
+
+addScriptFromTemplate(ScriptTemplate::OxidizedReduced());
+
+addScriptFromTemplate(ScriptTemplate::Penetrance());
+
+addScriptFromTemplate(ScriptTemplate::Phagocytosis());
+
+addScriptFromTemplate(ScriptTemplate::Photosynthesis());
+
+addScriptFromTemplate(ScriptTemplate::PlasmaCells());
+
+addScriptFromTemplate(ScriptTemplate::PositiveGeneRegulation());
+
+addScriptFromTemplate(ScriptTemplate::ProliferationBTCells());
+
+addScriptFromTemplate(ScriptTemplate::ProtonMotiveForce());
+
+addScriptFromTemplate(ScriptTemplate::PublicHealth());
+
+addScriptFromTemplate(ScriptTemplate::RecognitionAndResponse());
+
+addScriptFromTemplate(ScriptTemplate::RegulationOfTranscriptionInitiation());
+
+addScriptFromTemplate(ScriptTemplate::SelfToleranceBTCells());
+
+addScriptFromTemplate(ScriptTemplate::TCellsAfterSelection());
+
+addScriptFromTemplate(ScriptTemplate::Transcription1st());
+
+addScriptFromTemplate(ScriptTemplate::Translation2nd());
+
+addScriptFromTemplate(ScriptTemplate::TryptophanOperon());
+
+addScriptFromTemplate(ScriptTemplate::TypesOfChromosomeMutations());
+
+addScriptFromTemplate(ScriptTemplate::TypesOfMutations());
+
 
   // -----------------------------------------------------------------
 }

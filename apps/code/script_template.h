@@ -10,88 +10,139 @@ public:
   constexpr ScriptTemplate(const char * name, const char * value) : m_name(name), m_value(value) {}
   // INSERT FROM OUTPUT.TXT HERE
 
-static const ScriptTemplate * searcher();
+static const ScriptTemplate * ActiveAndPassiveImmunization();
 
-static const ScriptTemplate * importer();
+static const ScriptTemplate * AdaptiveResponse();
 
-static const ScriptTemplate * AlternatingCurrent();
+static const ScriptTemplate * AntibodyFunction();
 
-static const ScriptTemplate * BFieldOfCoilOfWireSolenoid();
+static const ScriptTemplate * AntigenicVariation();
 
-static const ScriptTemplate * Diffraction();
+static const ScriptTemplate * AntigenPresentingLeukocytes();
 
-static const ScriptTemplate * DopplerEffect();
+static const ScriptTemplate * AntigenRecognitionBCells();
 
-static const ScriptTemplate * ElectricField();
+static const ScriptTemplate * AntigenRecognitionTCells();
 
-static const ScriptTemplate * ElectricPotential();
+static const ScriptTemplate * AntimicrobalPeptidesAndProteins();
 
-static const ScriptTemplate * ElectromagneticInduction();
+static const ScriptTemplate * BarrierDefenses();
 
-static const ScriptTemplate * ElectromagneticSpectrum();
+static const ScriptTemplate * BCellsAfterSelection();
 
-static const ScriptTemplate * Electronvolt();
+static const ScriptTemplate * BCellsAntibodies();
 
-static const ScriptTemplate * FaradayLaw();
+static const ScriptTemplate * BTCellsDevelopment();
 
-static const ScriptTemplate * Generator();
+static const ScriptTemplate * BTCellsDiversity();
 
-static const ScriptTemplate * GravitationalAcceleration();
+static const ScriptTemplate * CellMediatedResponse();
 
-static const ScriptTemplate * HallEffect();
+static const ScriptTemplate * CellularAerobicRespiration();
 
-static const ScriptTemplate * HygensPrinciple();
+static const ScriptTemplate * CellularInnateDefense();
 
-static const ScriptTemplate * InterferenceWaves();
+static const ScriptTemplate * Compartmentalization();
 
-static const ScriptTemplate * LenzLaw();
+static const ScriptTemplate * ConsequencesOfGeneMutations();
 
-static const ScriptTemplate * LightWaves();
+static const ScriptTemplate * CytotoxicTCells();
 
-static const ScriptTemplate * LorentzForce();
+static const ScriptTemplate * Definitions();
 
-static const ScriptTemplate * LrOrRlCircuits();
+static const ScriptTemplate * DifferentialGeneExpression();
 
-static const ScriptTemplate * MagneticFields();
+static const ScriptTemplate * DisruptionsInImmuneSystem();
 
-static const ScriptTemplate * MagneticFlux();
+static const ScriptTemplate * DNAElectrophoresis();
 
-static const ScriptTemplate * MassSpectrometry();
+static const ScriptTemplate * DNAToRNA();
 
-static const ScriptTemplate * MotionalEmf();
+static const ScriptTemplate * Epidemiology();
 
-static const ScriptTemplate * NumberOfMaxima();
+static const ScriptTemplate * ExportSynthesizedProtein();
 
-static const ScriptTemplate * OerstedsExperiment();
+static const ScriptTemplate * Flu();
 
-static const ScriptTemplate * RefractionOfLight();
+static const ScriptTemplate * GeneMutations();
 
-static const ScriptTemplate * RlcCircuit();
+static const ScriptTemplate * GeneRegulation();
 
-static const ScriptTemplate * SelfInduction();
+static const ScriptTemplate * GenomeMutations();
 
-static const ScriptTemplate * SlitsWaves();
+static const ScriptTemplate * HelperTCells();
 
-static const ScriptTemplate * SoundWaves();
+static const ScriptTemplate * Heritability();
 
-static const ScriptTemplate * StandingWaves();
+static const ScriptTemplate * HIV();
 
-static const ScriptTemplate * Superposition();
+static const ScriptTemplate * HumoralResponse();
 
-static const ScriptTemplate * Torque();
+static const ScriptTemplate * ImmuneRejection();
 
-static const ScriptTemplate * TypesOfWaves();
+static const ScriptTemplate * ImmunologicalMemory();
 
-static const ScriptTemplate * WaveEquation();
+static const ScriptTemplate * InflammatoryResponses();
 
-static const ScriptTemplate * WavesFeatures();
+static const ScriptTemplate * InnateImmunityOfInvertebrates();
 
-static const ScriptTemplate * WavesInRippleTank();
+static const ScriptTemplate * InnateImmunityOfVertebrates();
 
-static const ScriptTemplate * WavesGrating();
+static const ScriptTemplate * Interleukins();
 
-static const ScriptTemplate * Youngsdoubleslit();
+static const ScriptTemplate * LactoseOperon();
 
+static const ScriptTemplate * LymphaticSystem();
+
+static const ScriptTemplate * MechanismusOfPostTranscriptionalRegulation();
+
+static const ScriptTemplate * MemoryBCells();
+
+static const ScriptTemplate * MemoryTCells();
+
+static const ScriptTemplate * MHCI();
+
+static const ScriptTemplate * MHCII();
+
+static const ScriptTemplate * NoncodingRNAInControllingGeneExpression();
+
+static const ScriptTemplate * Operons();
+
+static const ScriptTemplate * OxidizedReduced();
+
+static const ScriptTemplate * Penetrance();
+
+static const ScriptTemplate * Phagocytosis();
+
+static const ScriptTemplate * Photosynthesis();
+
+static const ScriptTemplate * PlasmaCells();
+
+static const ScriptTemplate * PositiveGeneRegulation();
+
+static const ScriptTemplate * ProliferationBTCells();
+
+static const ScriptTemplate * ProtonMotiveForce();
+
+static const ScriptTemplate * PublicHealth();
+
+static const ScriptTemplate * RecognitionAndResponse();
+
+static const ScriptTemplate * RegulationOfTranscriptionInitiation();
+
+static const ScriptTemplate * SelfToleranceBTCells();
+
+static const ScriptTemplate * TCellsAfterSelection();
+
+static const ScriptTemplate * Transcription1st();
+
+static const ScriptTemplate * Translation2nd();
+
+static const ScriptTemplate * TryptophanOperon();
+
+static const ScriptTemplate * TypesOfChromosomeMutations();
+
+static const ScriptTemplate * TypesOfMutations();
   // ---------------------------------------------------------------------------------------------
 
   static const ScriptTemplate * Empty();
